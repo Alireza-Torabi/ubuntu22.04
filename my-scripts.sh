@@ -23,6 +23,6 @@ NC='\033[0m' # No Color
 #while true; do
 #    clear
     echo -e "${YELLOW}Powerd BY:${NC}"
-    echo -e "${YELLOW}_______  _____   ______ _______ ______  _____${NC}"
+    echo -e "${YELLOW} _______  _____   ______ _______ ______  _____${NC}"
     echo -e "${YELLOW}    |    |     | |_____/ |_____| |_____]   |  ${NC}"
     echo -e "${YELLOW}    |    |_____| |    \_ |     | |_____] __|__${NC}"
