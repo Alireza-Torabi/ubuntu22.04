@@ -65,5 +65,3 @@ while true; do
     echo -e "${GREEN}Please choose an option:${NC}"
     echo -e ""
     read -p "Enter option number: " choice
-
-    case $choice in
