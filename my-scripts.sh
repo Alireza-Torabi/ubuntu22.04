@@ -8,9 +8,10 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 GRAY='\033[0;37m'
 NC='\033[0m' # No Color
- Check if user is root
+
+#Check if user is root
 if [[ $EUID -ne 0 ]]; then
-  sleep .5 
+  sleep .5
   sudo "$0" "$@"
   exit 1
 fi
@@ -32,18 +33,37 @@ echo -e ""
 echo -e ""
 echo -e ""
 echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight Saving)${NC}"
+echo -e "${YELLOW}      0.${NC} ${CYAN} Exit${NC}"
 echo -e ""
     echo -e "${GREEN}Please choose an option:${NC}"
     echo -e ""
     read -p "Enter option number: " choice
 
     case $choice in
-        #Tehran Time Zone 
+        #Tehran Time Zone
         1)
-            echo -e "${GREEN}Updating server...${NC}" 
+            echo -e "${GREEN}Updating server...${NC}"
             echo ""
             bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/Asia-Tehran-nodst/main/tehran-time.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
             ;;
+
+        # EXIT
+        0)
+            echo ""
+            echo -e "${GREEN}Exiting...${NC}"
+            echo "Exiting program"
+            exit 0
+            ;;
+         *)
+           echo "Invalid option. Please choose a valid option."
+           echo ""
+           echo -e "Press ${RED}ENTER${NC} to continue"
+           read -s -n 1
+           ;;
+
+        esac
+done
+                                            
