@@ -8,19 +8,19 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 GRAY='\033[0;37m'
 NC='\033[0m' # No Color
-# Check if user is root
-#if [[ $EUID -ne 0 ]]; then
-#  sleep .5 
-#   sudo "$0" "$@"
-#   exit 1
-#fi
+ Check if user is root
+if [[ $EUID -ne 0 ]]; then
+  sleep .5 
+  sudo "$0" "$@"
+  exit 1
+fi
 
 
-#echo "Running as root..."
-#sleep .5
-#clear
+echo "Running as root..."
+sleep .5
+clear
 
-#while true; do
+while true; do
 clear
 echo -e "${RED}Powerd BY:${NC}"
 echo -e "${RED}          ████████  ██████  ██████   █████  ██████  ██ ${NC}"
