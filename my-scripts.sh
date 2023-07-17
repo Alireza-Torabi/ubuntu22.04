@@ -23,10 +23,10 @@ NC='\033[0m' # No Color
 #while true; do
 #    clear
 echo -e "${RED}Powerd BY:${NC}"
-ooooooooooooo                               .o8        o8o  
-8'   888   `8                              "888        `"'  
-     888       .ooooo.  oooo d8b  .oooo.    888oooo.  oooo  
-     888      d88' `88b `888""8P `P  )88b   d88' `88b `888  
-     888      888   888  888      .oP"888   888   888  888  
-     888      888   888  888     d8(  888   888   888  888  
-    o888o     `Y8bod8P' d888b    `Y888""8o  `Y8bod8P' o888o
+echo -e ooooooooooooo                               .o8        o8o  
+echo -e 8'   888   `8                              "888        `"'  
+echo -e      888       .ooooo.  oooo d8b  .oooo.    888oooo.  oooo  
+echo -e      888      d88' `88b `888""8P `P  )88b   d88' `88b `888  
+echo -e      888      888   888  888      .oP"888   888   888  888  
+echo -e      888      888   888  888     d8(  888   888   888  888  
+echo -e     o888o     `Y8bod8P' d888b    `Y888""8o  `Y8bod8P' o888o
