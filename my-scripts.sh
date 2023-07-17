@@ -21,7 +21,7 @@ NC='\033[0m' # No Color
 #clear
 
 #while true; do
-#    clear
+clear
 echo -e "${RED}Powerd BY:${NC}"
 echo -e ooooooooooooo                               .o8        o8o  
 echo -e 8'   888   `8                              "888        `"'  
