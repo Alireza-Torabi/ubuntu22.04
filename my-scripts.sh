@@ -28,9 +28,9 @@ echo -e "${RED}             ██    ██    ██ ██   ██ ██   
 echo -e "${RED}             ██    ██    ██ ██████  ███████ ██████  ██ ${NC}"
 echo -e "${RED}             ██    ██    ██ ██   ██ ██   ██ ██   ██ ██ ${NC}"
 echo -e "${RED}     Alireza ██     ██████  ██   ██ ██   ██ ██████  ██ ${NC}"
-
-
-
+echo -e ""
+echo -e ""
+echo -e ""
 echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight Saving)${NC}"
 echo -e ""
     echo -e "${GREEN}Please choose an option:${NC}"
