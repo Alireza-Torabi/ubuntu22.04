@@ -32,3 +32,18 @@ echo -e "${RED}     Alireza ██     ██████  ██   ██ █�
 
 
 echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight Saving)${NC}"
+echo -e ""
+    echo -e "${GREEN}Please choose an option:${NC}"
+    echo -e ""
+    read -p "Enter option number: " choice
+
+    case $choice in
+        #Tehran Time Zone 
+        1)
+            echo -e "${GREEN}Updating server...${NC}" 
+            echo ""
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/Asia-Tehran-nodst/main/tehran-time.sh)
+            echo ""
+            echo -e "Press ${RED}ENTER${NC} to continue"
+            read -s -n 1
+            ;;
