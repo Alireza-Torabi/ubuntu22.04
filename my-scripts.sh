@@ -31,4 +31,4 @@ echo -e "${RED}     Alireza ██     ██████  ██   ██ █�
 
 
 
-echo -e "${YELLOW}      1.${NC} ${CYAN} IRAN/Tehran Time Zone (Whitout Daylight Saving)${NC}"
+echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight Saving)${NC}"
