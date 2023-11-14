@@ -50,6 +50,15 @@ echo -e ""
             read -s -n 1
             ;;
 
+        #Add User With Root Privilege
+        2)
+            echo -e "${GREEN}Updating server...${NC}"
+            echo ""
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/AddRootPrivilegeUser/main/AddRootPrivilegeUser.sh)
+            echo ""
+            echo -e "Press ${RED}ENTER${NC} to continue"
+            read -s -n 1
+            ;;
         # EXIT
         0)
             echo ""
