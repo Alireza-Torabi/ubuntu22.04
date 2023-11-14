@@ -34,6 +34,7 @@ echo -e ""
 echo -e ""
 echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight Saving)${NC}"
 echo -e "${YELLOW}      2.${NC} Add User With Root Privilege${CYAN} ${NC}"
+echo -e "${YELLOW}      3.${NC} Delete User${CYAN} ${NC}"
 echo -e "${YELLOW}      0.${NC} ${CYAN} Exit${NC}"
 echo -e ""
     echo -e "${GREEN}Please choose an option:${NC}"
@@ -56,6 +57,15 @@ echo -e ""
             echo -e "${GREEN}Updating server...${NC}"
             echo ""
             bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/AddRootPrivilegeUser/main/AddRootPrivilegeUser.sh)
+            echo ""
+            echo -e "Press ${RED}ENTER${NC} to continue"
+            read -s -n 1
+            ;;
+        #Delete User
+        3)
+            echo -e "${GREEN}Updating server...${NC}"
+            echo ""
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/DelUserUbuntu/main/DelUserUbuntu.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
