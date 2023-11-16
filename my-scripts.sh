@@ -71,6 +71,15 @@ echo -e ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
             ;;
+        #ADD SSH KEY
+        4)
+            echo -e "${GREEN}Updating server...${NC}"
+            echo ""
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/SshKeyGenAndImport/main/SshKeyGenAndImport.sh)
+            echo ""
+            echo -e "Press ${RED}ENTER${NC} to continue"
+            read -s -n 1
+            ;;
         # EXIT
         0)
             echo ""
