@@ -36,7 +36,7 @@ echo -e "${YELLOW}      1.${NC} ${CYAN} Asia/Tehran Time Zone (Whitout Daylight 
 echo -e "${YELLOW}      2.${NC} ${CYAN} Add User With Root Privilege${CYAN} ${NC}"
 echo -e "${YELLOW}      3.${NC} ${CYAN} Delete User${CYAN} ${NC}"
 echo -e "${YELLOW}      4.${NC} ${CYAN} Generate 4096 SSH Key And Import to server${CYAN} ${NC}"
-echo -e "${YELLOW}      5.${NC} ${CYAN} Download Google Drive shared link${CYAN} ${NC}"
+echo -e "${YELLOW}      5.${NC} ${CYAN} Download Google Drive public shared link${CYAN} ${NC}"
 echo -e "${YELLOW}      0.${NC} ${CYAN} Exit${NC}"
 echo -e ""
     echo -e "${GREEN}Please choose an option:${NC}"
