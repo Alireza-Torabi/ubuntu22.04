@@ -58,7 +58,7 @@ echo -e ""
         2)
             echo -e "${GREEN}Updating server...${NC}"
             echo ""
-            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/AddRootPrivilegeUser/main/AddRootPrivilegeUser.sh)
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/myscripts/refs/heads/main/AddRootPrivilegeUser.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
@@ -67,7 +67,7 @@ echo -e ""
         3)
             echo -e "${GREEN}Updating server...${NC}"
             echo ""
-            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/DelUserUbuntu/main/DelUserUbuntu.sh)
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/myscripts/refs/heads/main/DelUser.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
@@ -76,7 +76,7 @@ echo -e ""
         4)
             echo -e "${GREEN}Updating server...${NC}"
             echo ""
-            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/SshKeyGenAndImport/main/SshKeyGenAndImport.sh)
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/myscripts/refs/heads/main/AddRootPrivilegeUser.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
