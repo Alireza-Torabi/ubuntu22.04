@@ -48,7 +48,7 @@ echo -e ""
         1)
             echo -e "${GREEN}Updating server...${NC}"
             echo ""
-            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/Asia-Tehran-nodst/main/tehran-time.sh)
+            bash <(curl -s https://raw.githubusercontent.com/Alireza-Torabi/myscripts/refs/heads/main/tehran-time.sh)
             echo ""
             echo -e "Press ${RED}ENTER${NC} to continue"
             read -s -n 1
